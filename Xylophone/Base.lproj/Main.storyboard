@@ -53,10 +53,10 @@
                                 <rect key="frame" x="25" y="396.5" width="325" height="84"/>
                                 <color key="backgroundColor" red="0.10196078431372549" green="0.73725490196078436" blue="0.61176470588235299" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
-                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gil-uy-MuL"/>
+                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Snh-bb-St5"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jEL-en-4rE" userLabel="Key6">
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jEL-en-4rE" userLabel="Key6">
                                 <rect key="frame" x="30" y="488.5" width="315" height="84.5"/>
                                 <color key="backgroundColor" red="0.20392156862745098" green="0.59607843137254901" blue="0.85882352941176465" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
@@ -67,7 +67,7 @@
                                 <rect key="frame" x="35" y="581" width="305" height="84"/>
                                 <color key="backgroundColor" red="0.60784313725490191" green="0.34901960784313724" blue="0.71372549019607845" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
-                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YEk-pt-clL"/>
+                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Sx-pl-27H"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -103,6 +103,15 @@
                             <constraint firstItem="jEL-en-4rE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="txB-gT-hOH"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outletCollection property="Nodes" destination="0nu-A8-mkT" collectionClass="NSMutableArray" id="bJc-fm-ASx"/>
+                        <outletCollection property="Nodes" destination="4YE-I3-mym" collectionClass="NSMutableArray" id="8b7-e2-kxx"/>
+                        <outletCollection property="Nodes" destination="AXG-hm-s2J" collectionClass="NSMutableArray" id="iJB-aV-wCe"/>
+                        <outletCollection property="Nodes" destination="jAj-d0-19d" collectionClass="NSMutableArray" id="Mil-3j-GGM"/>
+                        <outletCollection property="Nodes" destination="QG2-EG-XmS" collectionClass="NSMutableArray" id="CVf-0L-xwv"/>
+                        <outletCollection property="Nodes" destination="jEL-en-4rE" collectionClass="NSMutableArray" id="JXh-ji-bKj"/>
+                        <outletCollection property="Nodes" destination="cmn-i5-Ti5" collectionClass="NSMutableArray" id="n9R-hW-6Cg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
